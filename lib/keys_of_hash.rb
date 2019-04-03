@@ -12,7 +12,6 @@ class Hash
         animal = pet
         array.push(animal)
       end #end if 
-    binding.pry  
     end #end do 
     end #while  
     return array
