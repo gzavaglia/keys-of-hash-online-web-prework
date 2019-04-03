@@ -5,6 +5,7 @@ class Hash
     animals = self.keys 
     array = []
     if countries == "Panama"
+      binding.pry 
       array[] << animals
     end 
       return array
