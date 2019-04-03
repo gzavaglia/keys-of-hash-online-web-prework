@@ -4,6 +4,7 @@ class Hash
     countries = self.values 
     animals = self.keys 
     animal = "sugar glider" 
+    country = arguments
     array = []
     self.each do |pet, place|
     binding.pry  
