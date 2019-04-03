@@ -3,7 +3,7 @@ class Hash
   def keys_of(*arguments)
     countries = self.values 
     animals = self.keys 
-    animal = nil 
+    animal = "sugar glider" 
     array = []
     self.each do |pet, place|
     binding.pry  
