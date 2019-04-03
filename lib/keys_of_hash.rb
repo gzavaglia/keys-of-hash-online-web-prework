@@ -9,7 +9,8 @@ class Hash
     country = arguments[count]
     self.each do |pet, place|
       if country == place 
-        array << pet 
+        animal = pet
+        array.push(animal)
       end #end if 
     binding.pry  
     end #end do 
