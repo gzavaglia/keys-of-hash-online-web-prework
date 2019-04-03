@@ -6,7 +6,7 @@ class Hash
     animal = nil 
     array = []
     self.each do |pet, place|
-      binding.pry 
+      
       if place == arguments
         animal = pet
         array << animal 
