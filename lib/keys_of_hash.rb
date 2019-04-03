@@ -6,9 +6,7 @@ class Hash
     animal = nil 
     array = []
     self.each do |pet, place|
-      place.each do |spot|
-      binding.pry 
-      end 
+    binding.pry  
     end #end do 
     return array
   end #end method 
