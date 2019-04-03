@@ -4,7 +4,7 @@ class Hash
     countries = self.values 
     animals = self.keys 
     array = []
-    if countries == "Panama"
+    if countries == arguments
       binding.pry 
       array[] << animals
     end 
