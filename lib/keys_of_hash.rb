@@ -11,7 +11,7 @@ class Hash
         binding.pry 
       end #end if 
     end #end do 
-    binding.pry 
+    
     
       return array
     end 
