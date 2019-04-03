@@ -4,11 +4,15 @@ class Hash
     countries = self.values 
     animals = self.keys 
     animal = "sugar glider" 
-    country = *arguments.join
+    #country = arguments
     array = []
+    count = 0 
+    while count < arguments.size 
+    country = arguments[count]
     self.each do |pet, place|
     binding.pry  
     end #end do 
+    end #while  
     return array
   end #end method 
 end #end class 
