@@ -3,7 +3,7 @@ class Hash
   def keys_of(*arguments)
     countries = self.values 
     animals = self.keys 
-    #array = []
+    array = []
     count = 0 
     while count < arguments.size 
     country = arguments[count]
