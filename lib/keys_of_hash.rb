@@ -7,7 +7,6 @@ class Hash
     binding.pry 
     if countries == arguments
       
-      array[] << animals
     end 
       return array
     end 
