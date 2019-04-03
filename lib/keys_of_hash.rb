@@ -5,7 +5,7 @@ class Hash
     animals = self.keys 
     animal = nil 
     array = []
-    self[arguments]
+    reversed_h = self.to_a.reverse.to_h
     binding.pry 
     
       return array
