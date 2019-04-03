@@ -7,12 +7,11 @@ class Hash
     array = []
     self.each do |pet, place|
       if place == arguments
+      binding.pry 
         animal = pet
         array << animal 
       end #end if 
     end #end do 
-    
-    
       return array
     end 
 end
