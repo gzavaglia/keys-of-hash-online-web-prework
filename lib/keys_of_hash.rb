@@ -6,13 +6,10 @@ class Hash
     animal = nil 
     array = []
     self.each do |pet, place|
-      
-      if place == arguments.to_s
-   
-        puts "hey"
-        binding.pry 
+      place.each do |spot|
+      binding.pry 
       end 
     end #end do 
-      return array
-    end 
-end
+    return array
+  end #end method 
+end #end class 
