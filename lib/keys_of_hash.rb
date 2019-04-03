@@ -8,7 +8,7 @@ class Hash
     self.each do |pet, place|
       
       if place == arguments
-      binding.pry 
+   
         puts "hey"
       end 
     end #end do 
