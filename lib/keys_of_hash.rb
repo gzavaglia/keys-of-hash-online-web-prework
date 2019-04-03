@@ -10,6 +10,7 @@ class Hash
       if place == arguments.to_s
    
         puts "hey"
+        binding.pry 
       end 
     end #end do 
       return array
