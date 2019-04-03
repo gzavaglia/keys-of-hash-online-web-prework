@@ -5,9 +5,7 @@ class Hash
     animals = self.keys 
     array = []
     binding.pry 
-    if countries == arguments
-      
-    end 
+    
       return array
     end 
 end
