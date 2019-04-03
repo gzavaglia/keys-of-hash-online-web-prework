@@ -1,9 +1,8 @@
 require 'pry'
 class Hash
   def keys_of(arguments)
-    
-    self.values 
-    binding.pry
+    countries = self.values 
+    animals = self.keys 
     array = []
     if arguments == "Panama"
       array[] << "red-footed tortoise"
