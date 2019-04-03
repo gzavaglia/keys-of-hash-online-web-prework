@@ -4,9 +4,9 @@ class Hash
     countries = self.values 
     animals = self.keys 
     array = []
-    if arguments == "Panama"
-      array[] << "red-footed tortoise"
+    if countries == "Panama"
+      array[] << animals
     end 
-      return array[]
+      return array
     end 
 end
