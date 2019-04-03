@@ -7,7 +7,7 @@ class Hash
     array = []
     self.each do |pet, place|
       
-      if place == arguments
+      if place == arguments.to_s
    
         puts "hey"
       end 
