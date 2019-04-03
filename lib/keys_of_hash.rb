@@ -5,7 +5,12 @@ class Hash
     animals = self.keys 
     animal = nil 
     array = []
-    reversed_h = self.to_a.reverse.to_h
+    self.each do |pet, place|
+      if place == arguments
+        animal = pet
+        binding.pry 
+      end #end if 
+    end #end do 
     binding.pry 
     
       return array
